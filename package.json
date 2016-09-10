@@ -1,0 +1,51 @@
+{
+  "name": "sigtor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhurkes/sigtor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhurkes/sigtor/issues"
+  },
+  "homepage": "https://github.com/rhurkes/sigtor#readme",
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "nodemon": "^1.9.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "bunyan": "^1.8.1",
+    "bunyan-format": "^0.2.1",
+    "cheerio": "^0.20.0",
+    "compression": "^1.6.1",
+    "express": "^4.13.4",
+    "glob": "^7.0.3",
+    "memory-cache": "^0.1.5",
+    "moment": "^2.13.0",
+    "moment-timezone": "^0.5.3",
+    "nconf": "^0.8.4",
+    "request": "^2.72.0",
+    "xml2js": "^0.4.16"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": false
+      }
+    },
+    "rules": {
+      "comma-dangle": 0
+    }
+  }
+}
